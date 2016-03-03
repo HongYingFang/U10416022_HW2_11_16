@@ -1,4 +1,4 @@
-//U10416022洪映舫
+
 
 import java.util.Scanner;
 import java.util.ArrayList;
