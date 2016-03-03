@@ -11,7 +11,6 @@ public class RepeatAdditionQuiz{
 
 	RepeatAdditionQuiz(int number1,int number2){
 
-
 		//set up arraylist method for integer
 		ArrayList<Integer> doneAnswers = new ArrayList<>();
 
@@ -21,13 +20,11 @@ public class RepeatAdditionQuiz{
 		// Create the Scanner
 		Scanner input = new Scanner(System.in);
 
-		
 		//user inputs their answer
 		int answer = input.nextInt();
 
-		
 		//use while loop and give the condition that user input wrong answer    
-		while (number1 * number2 != answer) 
+		while (number1 * number2 != answer){ 
 
 			//print out the answers that users has already inputted
 			if(doneAnswers.contains(answer)){
@@ -47,6 +44,4 @@ public class RepeatAdditionQuiz{
 	}
 	
 }
-
-
 
