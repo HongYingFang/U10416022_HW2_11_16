@@ -15,7 +15,7 @@ public class RepeatAdditionQuiz{
 		ArrayList<Integer> doneAnswers = new ArrayList<>();
 
 		//print out the question for user
-		System.out.print("What is " + number1 + " +* " + number2 + "? ");
+		System.out.print("What is " + number1 + " + " + number2 + "? ");
 
 		// Create the Scanner
 		Scanner input = new Scanner(System.in);
