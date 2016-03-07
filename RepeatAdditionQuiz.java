@@ -15,7 +15,7 @@ public class RepeatAdditionQuiz{
 		ArrayList<Integer> doneAnswers = new ArrayList<>();
 
 		//print out the question for user
-		System.out.print("What is " + number1 + " * " + number2 + "? ");
+		System.out.print("What is " + number1 + " +* " + number2 + "? ");
 
 		// Create the Scanner
 		Scanner input = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class RepeatAdditionQuiz{
 		int answer = input.nextInt();
 
 		//use while loop and give the condition that user input wrong answer    
-		while (number1 * number2 != answer){ 
+		while (number1 + number2 != answer){ 
 
 			//print out the answers that users has already inputted
 			if(doneAnswers.contains(answer)){
@@ -32,7 +32,7 @@ public class RepeatAdditionQuiz{
 			}
 			//if the answer is wrong,let user try again
 			//print out the quesion again
-			System.out.println("Wrong answer. Try again. What is " + number1 + " * " + number2 + "? ");
+			System.out.println("Wrong answer. Try again. What is " + number1 + " + " + number2 + "? ");
 			answer = input.nextInt();
 			
 			//add answers data to doneAnswers
