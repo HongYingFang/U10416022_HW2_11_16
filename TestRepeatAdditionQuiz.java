@@ -8,5 +8,5 @@ public class TestRepeatAdditionQuiz{
     int number2 = (int)(Math.random() * 10);
 		RepeatAdditionQuiz quiz = new RepeatAdditionQuiz(number1,number2);		
 	
-	}
+  	}
 }
